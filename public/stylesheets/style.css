@@ -1,0 +1,35 @@
+body {
+    padding: 20px;
+    font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+.header {
+    margin: auto;
+    text-align: center;
+    color: black;
+    font-size: 2em;
+}
+
+#personList {
+    margin: 100px auto auto;
+    width: 900px;
+}
+
+.person {
+    width: 200px;
+    height: 200px;
+    margin-left: 10px;
+    margin-top: 10px;
+    background-color: forestgreen;
+    display: inline-block;
+    text-align: center;
+    line-height: 200px;
+    font-size: 35px;
+    cursor: pointer;
+    font-family: fantasy;
+}
+
+.content {
+    width: 860px;
+    margin: auto auto 20px;
+}

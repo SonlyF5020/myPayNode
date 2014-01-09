@@ -1,0 +1,123 @@
+.summary {
+    width: 800px;
+    margin: 30px auto auto;
+    background-color: forestgreen;
+}
+
+.summary .person {
+    margin-bottom: 10px;
+}
+
+.summary .number {
+    display: inline-block;
+    margin-left: 20px;
+    width: 500px;
+}
+
+.function {
+    width: 800px;
+    margin: 10px auto auto;
+}
+
+.function div {
+    display: inline-block;
+    font-size: 35px;
+    text-align: center;
+    line-height: 70px;
+    height: 60px;
+    width: 189px;
+    background-color: forestgreen;
+    font-family: fantasy;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+.function_display {
+    width: 800px;
+    height: 360px;
+    margin: auto;
+    background-color: antiquewhite;
+    color: #000000;
+}
+
+.function_display div {
+    margin-left: 20px;
+    font-size: 30px;
+    font-family: fantasy;
+}
+
+.function_display .confirm {
+    margin-left: -10px;
+    padding-top: 10px;
+    background-color: forestgreen;
+    width: 758px;
+    margin-top: 54px;
+    text-align: right;
+    padding-right: 10px;
+    font-size: 40px;
+}
+
+.function_display .confirm a {
+    text-decoration: none;
+    cursor: pointer;
+    color: #ffffff;
+}
+
+.function_display input {
+    height: 40px;
+    font-size: 25px;
+    width: 100px;
+    text-align: center;
+    margin-left: 2px;
+    border: solid;
+}
+
+.personList {
+    display: inline-block;
+}
+
+.personList div {
+    width: 160px;
+    height: 102px;
+    background-color: #ffffff;
+    display: inline-block;
+    text-align: center;
+    cursor: pointer;
+    font-family: monospace;
+    border: solid;
+}
+
+.personDetail {
+    width: 200px;
+    height: 200px;
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: white;
+    display: inline-block;
+    text-align: center;
+    line-height: 200px;
+    font-size: 35px;
+    cursor: pointer;
+    font-family: fantasy;
+    color: black;
+}
+
+.eat {
+    background: url('/resources/image/bowl.png') no-repeat 55px 40px;
+}
+
+.right {
+    background: url('/resources/image/right.png') no-repeat 55px 40px;
+}
+
+.money {
+    background: url('/resources/image/money.png') no-repeat 55px 40px;
+}
+
+.number span {
+    margin-left: 150px;
+    font-size: 120px;
+    font-family: monospace;
+    color: #ffffff;
+}

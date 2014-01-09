@@ -1,0 +1,8 @@
+extends layout
+
+block content
+    div(data-ng-app="contentApp")
+        div.summary
+            div.personDetail(name=User)=UserChineseName
+            div.number
+                span=money
