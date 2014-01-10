@@ -33,3 +33,23 @@ body {
     width: 860px;
     margin: auto auto 20px;
 }
+
+.circleSummary{
+    width: 800px;
+    margin: 30px auto auto;
+}
+
+.circle {
+    width: 180px;
+    height: 180px;
+    margin-left: 18px;
+    margin-top: 10px;
+    background-color: forestgreen;
+    display: inline-block;
+    text-align: center;
+    line-height: 153px;
+    font-size: 35px;
+    cursor: pointer;
+    border-radius: 100%;
+    font-family: fantasy;
+}

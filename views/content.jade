@@ -3,6 +3,16 @@ extends layout
 block content
     div(data-ng-app="contentApp")
         div.summary
-            div.personDetail(name=User)=UserChineseName
+            div.personDetail(name=User)=User
             div.number
                 span=money
+        div.circleSummary
+            nav.cl-effect-12
+                div.circle
+                    a(href="#") 付款
+                div.circle
+                    a(href="#") 借钱
+                div.circle
+                    a(href="#") 还钱
+                div.circle
+                    a(href="#") 清帐

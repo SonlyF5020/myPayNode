@@ -5,7 +5,7 @@ exports.list = function(req, res){
 
 exports.content = function(req , res){
     var user={
-        User:"honglai",
+        User:req.params.user,
         UserChineseName:"红来",
         money:100
     };
